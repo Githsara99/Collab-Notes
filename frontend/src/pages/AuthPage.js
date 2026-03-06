@@ -59,7 +59,7 @@ export default function AuthPage() {
               <div>
                 <label className="block text-sm text-text-muted mb-1.5">Full Name</label>
                 <input
-                  type="text" placeholder="Ishan Perera" required
+                  type="text" placeholder="Enter your full name" required
                   value={form.name} onChange={e => setForm({ ...form, name: e.target.value })}
                   className="w-full bg-base-200 border border-border rounded-lg px-4 py-2.5 text-sm text-white placeholder-text-dim focus:outline-none focus:border-accent transition-colors"
                 />
@@ -68,7 +68,7 @@ export default function AuthPage() {
             <div>
               <label className="block text-sm text-text-muted mb-1.5">Email</label>
               <input
-                type="email" placeholder="you@example.com" required
+                type="email" placeholder="Enter your email" required
                 value={form.email} onChange={e => setForm({ ...form, email: e.target.value })}
                 className="w-full bg-base-200 border border-border rounded-lg px-4 py-2.5 text-sm text-white placeholder-text-dim focus:outline-none focus:border-accent transition-colors"
               />
